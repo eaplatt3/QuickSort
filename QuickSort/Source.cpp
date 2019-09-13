@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	//Variables
-	const int rNum = 100;
+	const int rNum = 1000;
 	int arr[rNum]; //creates array with 10 slots
 
 	cout << "Unsorted Array" << endl;
@@ -16,7 +16,7 @@ int main()
 	//Loop to fill array with random numbers & prints them
 	for (int i = 0; i < rNum; i++) {
 
-		arr[i] = 1 + rand() % 100;
+		arr[i] = 1 + rand() % 1000;
 		cout << " " << arr[i];
 	}
 
